@@ -39,7 +39,7 @@ public class Person {
                     person.getSpouse().divorce();
                     person.divorce();
                 }
-                this.marry(person);
+                return this.marry(person);
             }
             return false;
         }
